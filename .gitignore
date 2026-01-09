@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*~
+*.swp
+*.swo
+
+# Build and Temp Files
+node_modules/
+npm-debug.log*
+.npm
+.env
+.env.local
+.cache
+
+# Backup Files
+*.bak
+*.backup
