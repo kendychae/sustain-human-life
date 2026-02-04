@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        img { max-width: 500px; margin: 20px 0; display: block; border: 2px solid red; }
+        h2 { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Image Test Page</h1>
+    
+    <h2>Test 1: ./images/cooking-prep.jpeg</h2>
+    <img src="./images/cooking-prep.jpeg" alt="Cooking prep test" onerror="this.style.borderColor='red'; this.alt='ERROR LOADING IMAGE'">
+    
+    <h2>Test 2: ./images/soup-mixes.jpeg</h2>
+    <img src="./images/soup-mixes.jpeg" alt="Soup mixes test" onerror="this.style.borderColor='red'; this.alt='ERROR LOADING IMAGE'">
+    
+    <h2>Test 3: images/cooking-prep.jpeg (no dot)</h2>
+    <img src="images/cooking-prep.jpeg" alt="Cooking prep test 2" onerror="this.style.borderColor='red'; this.alt='ERROR LOADING IMAGE'">
+    
+    <h2>Test 4: images/soup-mixes.jpeg (no dot)</h2>
+    <img src="images/soup-mixes.jpeg" alt="Soup mixes test 2" onerror="this.style.borderColor='red'; this.alt='ERROR LOADING IMAGE'">
+    
+    <script>
+        document.querySelectorAll('img').forEach((img, index) => {
+            img.onload = function() {
+                console.log(`Image ${index + 1} loaded successfully: ${this.src}`);
+                this.style.borderColor = 'green';
+            };
+            img.onerror = function() {
+                console.error(`Image ${index + 1} FAILED to load: ${this.src}`);
+                this.style.borderColor = 'red';
+                const p = document.createElement('p');
+                p.style.color = 'red';
+                p.textContent = 'FAILED TO LOAD: ' + this.src;
+                this.parentNode.insertBefore(p, this.nextSibling);
+            };
+        });
+    </script>
+</body>
+</html>
