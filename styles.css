@@ -854,6 +854,15 @@ img[loading="lazy"].loaded {
         grid-template-columns: 1fr;
     }
 
+    .carousel-image {
+        max-height: 300px;
+    }
+    
+    .carousel-btn {
+        font-size: 1.5rem;
+        padding: 0.3rem 0.7rem;
+    }
+
     .features, .meal-plan-cards, .tips-grid, .recipe-grid {
         grid-template-columns: 1fr;
     }
@@ -1001,11 +1010,11 @@ img[loading="lazy"].loaded {
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
 }
 
 .carousel-image {
-    min-width: 100%;
+    flex: 0 0 100%;
+    width: 100%;
     height: auto;
     max-height: 500px;
     object-fit: cover;
