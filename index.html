@@ -29,6 +29,7 @@
     <meta name="twitter:image" content="https://kendychae.github.io/sustain-human-life/images/social-preview.jpg">
     
     <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -62,7 +63,7 @@
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
             <div class="nav-brand">
-                <h1>Healthy Families</h1>
+                <h1 id="healthy-families-logo">Healthy Families</h1>
             </div>
             <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span class="hamburger-line"></span>
@@ -134,7 +135,16 @@
                     </ul>
                 </div>
                 <div class="about-image">
-                    <img src="./images/cooking-prep.jpeg" alt="Person preparing a healthy meal in a green pot on the stove">
+                    <!-- Image Carousel -->
+                    <div class="image-carousel">
+                        <div class="carousel-track">
+                            <img src="./images/cooking-prep.jpeg" alt="Person preparing a healthy meal in a green pot on the stove" class="carousel-image">
+                            <img src="./images/soup-mixes.jpeg" alt="Augason Farms soup mixes on kitchen counter" class="carousel-image">
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+                        <button class="carousel-btn next" aria-label="Next image">›</button>
+                        <div class="carousel-dots"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -557,8 +567,8 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Healthy Families Project. Created to help families make healthier choices. | <a href="privacy.html" style="color: #a8d08d; text-decoration: none;">Privacy Policy</a> | <a href="disclaimer.html" style="color: #a8d08d; text-decoration: none;">Disclaimer</a></p>
-                <p class="last-updated-footer">Last Updated: February 3, 2026 at 4:45 PM MST (Blackfoot, Idaho)</p>
+                <p>&copy; 2026 Healthy Families Project. Created by <span id="author-name" class="author-name">Kendahl Bingham</span> to help families make healthier choices. | <a href="privacy.html" style="color: #f8bbd0; text-decoration: none;">Privacy Policy</a> | <a href="disclaimer.html" style="color: #f8bbd0; text-decoration: none;">Disclaimer</a></p>
+                <p class="last-updated-footer">Last Updated: February 9, 2026 at 12:00 PM MST (Blackfoot, Idaho)</p>
             </div>
         </div>
     </footer>

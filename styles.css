@@ -32,7 +32,7 @@ img {
     top: 0;
     z-index: 999;
     padding: 1rem;
-    background-color: #2d5016;
+    background-color: #c2185b;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -45,7 +45,7 @@ img {
 /* Focus visible for keyboard navigation */
 a:focus-visible,
 button:focus-visible {
-    outline: 3px solid #4a7c2c;
+    outline: 3px solid #e91e63;
     outline-offset: 2px;
 }
 
@@ -72,7 +72,7 @@ button:focus-visible {
 
 /* Navigation */
 .navbar {
-    background-color: #2d5016;
+    background-color: #c2185b;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -138,7 +138,7 @@ button:focus-visible {
 }
 
 .nav-menu a:hover {
-    color: #a8d08d;
+    color: #f8bbd0;
 }
 
 /* Fade-in Animation */
@@ -159,7 +159,7 @@ button:focus-visible {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #4a7c2c 0%, #6ba83d 100%);
+    background: linear-gradient(135deg, #c2185b 0%, #e91e63 100%);
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -192,7 +192,7 @@ button:focus-visible {
 
 .btn-primary {
     background-color: #fff;
-    color: #2d5016;
+    color: #c2185b;
 }
 
 .btn-primary:hover {
@@ -203,28 +203,28 @@ button:focus-visible {
 
 .btn-secondary {
     background-color: transparent;
-    color: #2d5016;
-    border: 2px solid #2d5016;
+    color: #c2185b;
+    border: 2px solid #c2185b;
 }
 
 .btn-secondary:hover {
-    background-color: #2d5016;
+    background-color: #c2185b;
     color: white;
 }
 
 .btn-download {
-    background-color: #4a7c2c;
+    background-color: #e91e63;
     color: white;
     margin-top: 1rem;
 }
 
 .btn-download:hover {
-    background-color: #2d5016;
+    background-color: #c2185b;
 }
 
 .btn-link {
     background-color: #f8f9fa;
-    color: #2d5016;
+    color: #c2185b;
     padding: 0.6rem 1.5rem;
     font-size: 0.9rem;
 }
@@ -242,7 +242,7 @@ button:focus-visible {
 .intro-section h2 {
     text-align: center;
     font-size: 2.2rem;
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 1.5rem;
 }
 
@@ -278,7 +278,7 @@ button:focus-visible {
 .feature-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2d5016;
+    color: #c2185b;
 }
 
 /* About Section */
@@ -290,7 +290,7 @@ button:focus-visible {
 .about-section h2 {
     text-align: center;
     font-size: 2.2rem;
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 3rem;
 }
 
@@ -302,7 +302,7 @@ button:focus-visible {
 }
 
 .about-text h3 {
-    color: #4a7c2c;
+    color: #e91e63;
     font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
@@ -352,7 +352,7 @@ button:focus-visible {
 .meal-plans-section h2 {
     text-align: center;
     font-size: 2.2rem;
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 1rem;
 }
 
@@ -383,15 +383,15 @@ button:focus-visible {
 }
 
 .meal-card h3 {
-    color: #2d5016;
+    color: #c2185b;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #a8d08d;
+    border-bottom: 3px solid #f8bbd0;
 }
 
 .meal-plan-content h4 {
-    color: #4a7c2c;
+    color: #e91e63;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -419,7 +419,7 @@ button:focus-visible {
 .tips-section h2 {
     text-align: center;
     font-size: 2.2rem;
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 3rem;
 }
 
@@ -434,11 +434,11 @@ button:focus-visible {
     background: #f8f9fa;
     padding: 2rem;
     border-radius: 8px;
-    border-left: 4px solid #4a7c2c;
+    border-left: 4px solid #e91e63;
 }
 
 .tip-category h3 {
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -457,7 +457,7 @@ button:focus-visible {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #4a7c2c;
+    color: #e91e63;
     font-weight: bold;
 }
 
@@ -467,7 +467,7 @@ button:focus-visible {
 
 .resource-links h3 {
     text-align: center;
-    color: #2d5016;
+    color: #c2185b;
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
@@ -487,7 +487,7 @@ button:focus-visible {
 }
 
 .resource-card h4 {
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 1rem;
 }
 
@@ -505,7 +505,7 @@ button:focus-visible {
 
 .pantry-staples h3 {
     text-align: center;
-    color: #2d5016;
+    color: #c2185b;
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
@@ -530,7 +530,7 @@ button:focus-visible {
 }
 
 .pantry-text h4 {
-    color: #2d5016;
+    color: #c2185b;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -551,9 +551,9 @@ button:focus-visible {
 }
 
 .tip-highlight {
-    background: #f0f8e8;
+    background: #fce4ec;
     padding: 1rem;
-    border-left: 4px solid #4a7c2c;
+    border-left: 4px solid #e91e63;
     border-radius: 4px;
     font-size: 0.95rem;
 }
@@ -567,7 +567,7 @@ button:focus-visible {
 .recipes-section h2 {
     text-align: center;
     font-size: 2.2rem;
-    color: #2d5016;
+    color: #c2185b;
     margin-bottom: 1rem;
 }
 
@@ -605,7 +605,7 @@ button:focus-visible {
 }
 
 .recipe-card h3 {
-    color: #2d5016;
+    color: #c2185b;
     padding: 1.5rem 1.5rem 0.5rem;
     font-size: 1.3rem;
 }
@@ -618,7 +618,7 @@ button:focus-visible {
 }
 
 .recipe-card h4 {
-    color: #4a7c2c;
+    color: #e91e63;
     padding: 0 1.5rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -642,7 +642,7 @@ button:focus-visible {
 /* CTA Section */
 .cta-section {
     padding: 4rem 0;
-    background: linear-gradient(135deg, #4a7c2c 0%, #6ba83d 100%);
+    background: linear-gradient(135deg, #c2185b 0%, #e91e63 100%);
     color: white;
     text-align: center;
 }
@@ -668,7 +668,7 @@ button:focus-visible {
 
 /* Footer */
 footer {
-    background-color: #2d5016;
+    background-color: #c2185b;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -694,7 +694,7 @@ footer {
 }
 
 .footer-section a {
-    color: #a8d08d;
+    color: #f8bbd0;
     text-decoration: none;
 }
 
@@ -722,7 +722,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #4a7c2c;
+    background-color: #e91e63;
     color: white;
     border: none;
     border-radius: 50%;
@@ -743,7 +743,7 @@ footer {
 }
 
 #back-to-top:hover {
-    background-color: #2d5016;
+    background-color: #c2185b;
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
@@ -813,7 +813,7 @@ img[loading="lazy"].loaded {
         top: 70px;
         left: -100%;
         width: 100%;
-        background-color: #2d5016;
+        background-color: #c2185b;
         flex-direction: column;
         padding: 2rem 0;
         transition: left 0.3s ease;
@@ -922,7 +922,7 @@ img[loading="lazy"].loaded {
 }
 
 .legal-page h1 {
-    color: #2d5016;
+    color: #c2185b;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
@@ -943,7 +943,7 @@ img[loading="lazy"].loaded {
 }
 
 .legal-content h2 {
-    color: #2d5016;
+    color: #c2185b;
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -954,7 +954,7 @@ img[loading="lazy"].loaded {
 }
 
 .legal-content h3 {
-    color: #4a7c2c;
+    color: #e91e63;
     font-size: 1.3rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
@@ -976,17 +976,132 @@ img[loading="lazy"].loaded {
 }
 
 .legal-content a {
-    color: #4a7c2c;
+    color: #e91e63;
     text-decoration: underline;
 }
 
 .legal-content a:hover {
-    color: #2d5016;
+    color: #c2185b;
 }
 
 .back-link {
     margin-top: 3rem;
     text-align: center;
+}
+
+/* Image Carousel Styles */
+.image-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(194, 24, 91, 0.8);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 10;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(194, 24, 91, 1);
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+    background-color: #e91e63;
+}
+
+/* Easter Egg Styles */
+#healthy-families-logo,
+.author-name {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+#healthy-families-logo:hover,
+.author-name:hover {
+    color: #f8bbd0;
+    transform: scale(1.05);
+}
+
+.easter-egg-active {
+    animation: easterEggPulse 0.5s ease-in-out;
+}
+
+@keyframes easterEggPulse {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.2) rotate(5deg); }
+    50% { transform: scale(1.1) rotate(-5deg); }
+    75% { transform: scale(1.2) rotate(5deg); }
+}
+
+/* Confetti Animation */
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #e91e63;
+    pointer-events: none;
+    z-index: 9999;
+    animation: confettiFall 3s linear forwards;
+}
+
+@keyframes confettiFall {
+    to {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
 }
 
 @media (max-width: 768px) {
